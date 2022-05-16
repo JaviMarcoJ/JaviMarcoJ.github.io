@@ -10,8 +10,148 @@
 
 <body>
   <div class="container-fluid">
+    <div class="row fixed-top text-light border border-light border border-2 bg-info">
+      <div class="col-6 p-4 text-light text-uppercase ">
+          <h2 class="lead ">Mi Curriculum</h2>
+      </div>
+      <div class="col-6 p-3 text-light d-grid gap-2 d-md-flex justify-content-md-end ">
+        <button type="button" class="btn btn-outline-light btn-text-primary"><a href="#panelsStayOpen-headingOne">Sobre mi</a></button>
+        <button type="button" class="btn btn-outline-light"><a href="#panelsStayOpen-headingTwo">Estudios</a></button>
+        <button type="button" class="btn btn-outline-light "><a href="#panelsStayOpen-headingThree">Experiencia</a></button>
+        <button type="button" class="btn btn-outline-light "><a href="#Contacto">Contacto</a></button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bg-info">
+      <div class="row">
+        <div class="col-4 p-5 align-items-center">
+          <img src="./img-perfil.png" class="img-fluid" alt="..." width="250" height="250"> 
+        </div>
+        <div class="col-8 p-5 align-items-center text-light">
+          <h4>Soy</h4>
+          <h1>Javier Marco Jiménez</h1>
+          <br>
+          <h3>Estudiante de Desarrollo de Aplicaciones Multiplataforma</h3>
+          <br>
+          <h4>Apasionado de la programación y los viedojuegos</h4>
+          <br>
+          <br>
+          <h5>Viendo la vida pasar con una sonrisa</h5>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button bg-info text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Sobre mi
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            Soy un joven madrileño de 20 años, al cuál le encanta la programación y los videojuegos.
+            He estado estudiando programación desde hace unos años, pero llevo interesado desde muy pequeño.
+            Me considero una persona trabajadora, comunicativa y calmada.
+            Támbien me gusta trabajar en equipo, porque desde siempre he practicado diversos deportes de equipo.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed bg-info text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Estudios
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>ESO</strong> Desde 2013 a 2018<br>
+            <strong>GRADO MEDIO</strong> Desde 2019 a 2021 <br>
+            <strong>GRADO SUPERIOR</strong> Desde 2021 a 2023<br>
+            <strong>NIVEL B2 DE INGLÉS</strong> El exámen fue en Junio de 2021 por la universidad de Cambrige.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed bg-info text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Experiencia
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>CAJERO</strong> Trabajando en el negocio familiar por 3 años<br>
+            <strong>PRÁCTICAS GRADO MEDIO</strong> Desde Marzo de 2021 a Junio de 2021
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-6 p-3 align-items-center">
+            <div id="carouselExampleCaptions" class="carousel slide bg-info" data-bs-ride="carousel" style="height: 200;">
+                <h3 class="text-light">HOBBIES</h3>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                <img src="./img sport.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DEPORTES</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="./img travel.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>VIAJAR</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img videojuego.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>VIDEOJUEGOS</h5>
+                  </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+        
+        <div id="Contacto" class="col-5 p-3 align-items-end bg-info">
+          <h3 class="text-light">CONTACTO</h3>
+          <h5 class="text-light">
+            <br>
+            <br>
+            Teléfono: 640 20 84 30
+            <br>
+            <br>
+            Correo electrónico: javamajim@gmail.com
+            <br>
+            <br>
+            Residencia actual: Madrid
+            <br>
+            <br>
+            Edad: 20 años
+            <br>
+            <br>
+            Fecha de nacimiento: 20 - 7 - 2001
+          </h5>
+        </div>
+    </div>
   </div>
-  https://www.pinterest.es/pin/754986325017085688/?mt=login
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
